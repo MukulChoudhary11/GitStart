@@ -21,3 +21,9 @@ li[1].style.backdropColor='yellow';
 for(var i=0;i<li.length;i++){
     items[i].style.backdropColor='#f4f4f4';
 }
+//5th change
+var seconditem=document.querySelector('.list-group-item:nth-child(2)');
+seconditem.style.color='green';
+var thirditem=document.querySelector('.list-group-item:nth-child(3)');
+thirditem.style.display='none';
+
